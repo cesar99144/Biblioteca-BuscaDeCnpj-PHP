@@ -20,6 +20,7 @@
 
 <p>Instanciar a classe</p>
 <code>
+   
     <?php
 
         require 'vendor/autoload.php';
@@ -51,7 +52,7 @@
     <h3><?php echo $cnpj->Nome(); ?></h3>
     <h3><?php echo $cnpj->atividadePrincipal(); ?></h3>
     <h3><?php echo $cnpj->telefone(); ?></h3>
-    
+
 </code>
 
 <p>Os seguintes dados estão disponíveis:</p>
