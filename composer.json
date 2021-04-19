@@ -1,0 +1,21 @@
+{
+    "name": "cesarferreira/cnpj-receitaws",
+    "description": "Biblioteca para realizar a busca de informações de um cnpj através receitaws.com.br",
+    "type": "library",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "César Ferreira",
+            "email": "cesarferreiraa67@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">5.4"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "lib\\consulta\\":["src/consultaDados"]
+        }
+    }
+}
