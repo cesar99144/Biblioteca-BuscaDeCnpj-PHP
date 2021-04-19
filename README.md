@@ -2,10 +2,14 @@
  Biblioteca para realizar a busca de informações de um cnpj através do <a>receitaws.com.br</a>
 
 <h3>Instalação</h3>
-<blockquote>O projeto está disponível no Packagist, onde para fazer a instalação via Composer basta apenas adicionar ao arquivo composer.json do seu projeto: </blockquote>
+<blockquote>O projeto está disponível no Packagist, onde para fazer a instalação via Composer basta apenas adicionar ao arquivo composer.json do seu projeto: 
+
 <code>"require": {
          "cesarferreira/cnpj-receitaws" : "dev-main"
     }</code>
+
+</blockquote>
+
 <a href="https://packagist.org/packages/cesarferreira/cnpj-receitaws">Página no packagist</a>
 
 <blockquote>
@@ -29,17 +33,13 @@
     ?>
 </code>
 
-<p>Exemplo de retorno do dados nos values do form:</p>
+<p>Exemplo de retorno do dados nos values dos inputs de um form:</p>
 <code>
-    <body>
-        <form>
-            <label>Razão social: </label>
-                <input type="text" value="<?php echo $cnpj->Nome(); ?>">
-            <label>Atividade principal: </label>
-                <input type="text" value="<?php echo $cnpj->atividadePrincipal(); ?>">    
-            <label>Telefone: </label>
-                 <input type="text" value="<?php echo $cnpj->telefone(); ?>">
-        </form>
+
+        <input type="text" value="<?php echo $cnpj->Nome(); ?>">
+        <input type="text" value="<?php echo $cnpj->atividadePrincipal(); ?>">    
+        <input type="text" value="<?php echo $cnpj->telefone(); ?>">
+        
     </body>
 </code>
 
