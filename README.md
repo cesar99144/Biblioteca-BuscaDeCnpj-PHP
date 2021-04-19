@@ -4,7 +4,9 @@
 <h3>Instalação</h3>
 <blockquote>O projeto está disponível no Packagist, onde para fazer a instalação via Composer basta apenas adicionar ao arquivo composer.json do seu projeto: 
 
-<code>"require": {
+<code>
+
+    "require": {
          "cesarferreira/cnpj-receitaws" : "dev-main"
     }</code>
 
