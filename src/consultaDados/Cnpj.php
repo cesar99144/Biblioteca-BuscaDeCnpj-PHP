@@ -38,25 +38,25 @@ class Cnpj{
 		$retorno = json_decode(curl_exec($ch), true);
 
         //Atribui o resultado da busca nos atributos
-		$this->atividadePrincipal = $retorno['atividade_principal'][0]['text']."<br>";
-		$this->codigoAtividadePrincipal = $retorno['atividade_principal'][0]['code']."<br>";
-		$this->dataSituacao = $retorno['data_situacao']."<br>";
-		$this->nome = $retorno['nome']."<br>";
-		$this->uf = $retorno['uf']."<br>";
-		$this->telefone = $retorno['telefone']."<br>";
-		$this->atividadesSecundarias = $retorno['atividades_secundarias'][0]['text']."<br>";
-		$this->situacao = $retorno['situacao']."<br>";
-		$this->bairro = $retorno['bairro']."<br>";
-		$this->logradouro = $retorno['logradouro']."<br>";
-		$this->numero = $retorno['numero']."<br>";
-		$this->cep = $retorno['cep']."<br>";
-		$this->municipio = $retorno['municipio']."<br>";
-		$this->porte = $retorno['porte']."<br>";
-		$this->abertura = $retorno['abertura']."<br>";
-		$this->naturezaJuridica = $retorno['natureza_juridica']."<br>";
-		$this->fantasia = $retorno['fantasia']."<br>";
-		$this->cnpjRetornado = $retorno['cnpj']."<br>";
-		$this->capital_social = $retorno['capital_social']."<br>";
+		$this->atividadePrincipal = $retorno['atividade_principal'][0]['text'];
+		$this->codigoAtividadePrincipal = $retorno['atividade_principal'][0]['code'];
+		$this->dataSituacao = $retorno['data_situacao'];
+		$this->nome = $retorno['nome'];
+		$this->uf = $retorno['uf'];
+		$this->telefone = $retorno['telefone'];
+		$this->atividadesSecundarias = $retorno['atividades_secundarias'][0]['text'];
+		$this->situacao = $retorno['situacao'];
+		$this->bairro = $retorno['bairro'];
+		$this->logradouro = $retorno['logradouro'];
+		$this->numero = $retorno['numero'];
+		$this->cep = $retorno['cep'];
+		$this->municipio = $retorno['municipio'];
+		$this->porte = $retorno['porte'];
+		$this->abertura = $retorno['abertura'];
+		$this->naturezaJuridica = $retorno['natureza_juridica'];
+		$this->fantasia = $retorno['fantasia'];
+		$this->cnpjRetornado = $retorno['cnpj'];
+		$this->capital_social = $retorno['capital_social'];
 
 		
 
