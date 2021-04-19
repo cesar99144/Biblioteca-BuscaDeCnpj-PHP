@@ -36,18 +36,22 @@
 <p>Exemplo de retorno do dados nos values dos inputs de um form:</p>
 <code>
 
-        <input type="text" value="<?php echo $cnpj->Nome(); ?>">
-        <input type="text" value="<?php echo $cnpj->atividadePrincipal(); ?>">    
-        <input type="text" value="<?php echo $cnpj->telefone(); ?>">
-        
+    <body>
+        <form>
+            <input type="text" value="<?php echo $cnpj->Nome(); ?>">
+            <input type="text" value="<?php echo $cnpj->atividadePrincipal(); ?>">    
+            <input type="text" value="<?php echo $cnpj->telefone(); ?>">
+        </form>  
     </body>
 </code>
 
 <p>Em tags de texto:</p>
 <code>
+
     <h3><?php echo $cnpj->Nome(); ?></h3>
     <h3><?php echo $cnpj->atividadePrincipal(); ?></h3>
     <h3><?php echo $cnpj->telefone(); ?></h3>
+    
 </code>
 
 <p>Os seguintes dados estão disponíveis:</p>
