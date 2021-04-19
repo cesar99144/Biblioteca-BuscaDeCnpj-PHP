@@ -8,11 +8,12 @@
 
     "require": {
          "cesarferreira/cnpj-receitaws" : "dev-main"
-    }</code>
-
-</blockquote>
+    }
+    
+</code>
 
 <a href="https://packagist.org/packages/cesarferreira/cnpj-receitaws">Página no packagist</a>
+</blockquote>
 
 <blockquote>
        É necessário ter o curl instalado (em sistemas operacionais linux por exemplo). E nos demais ter as extensões <code>extension=curl.so</code> <code>extension=curl</code> ativados no arquivo ini do seu php. <a href="https://www.php.net/manual/pt_BR/curl.installation.php">Como aplicar os procedimentos de acordo com seu sistema operacional</a>
