@@ -2,6 +2,7 @@
     "name": "cesarferreira/cnpj-receitaws",
     "description": "Biblioteca para realizar a busca de informações de um cnpj através receitaws.com.br",
     "type": "library",
+    "license": "MIT",
     "version": "1.0",
     "authors": [
         {
